@@ -1,0 +1,76 @@
+/*.grid{*/
+    /*display: flex;*/
+    /*background: #c6c6c6;*/
+    /*height:500px;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+/*.grid-cell {*/
+    /*flex: 1;*/
+    /*background: #7f7f7f;*/
+    /*width:25px;*/
+    /*height: 200px;*/
+    /*margin:0 5px;*/
+/*}*/
+/*.u-1of3{*/
+    /*flex: 0 0 33.33333%;*/
+/*}*/
+/*.u-1of4{*/
+    /*flex: 0 0 25%;*/
+/*}*/
+/*.u-1of2{*/
+    /*display: flex;*/
+    /*flex: 0 0 50%;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.Holy{*/
+    /*display: flex;*/
+    /*background:#5caefc;*/
+    /*min-height:100vh;*/
+    /*flex-direction: column;*/
+/*}*/
+/*.content{*/
+    /*display: flex;*/
+    /*height: 200px;*/
+    /*align-items: center;*/
+/*}*/
+/*.Holy-main{*/
+    /*display: flex;*/
+    /*background-color: #fff;*/
+    /*flex: 1;*/
+    /*height: 50px;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+/*}*/
+/*.Holy-nav,.Holy-aside{*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex: 0 0 12em;*/
+    /*background-color: #fff;*/
+    /*height: 50px;*/
+/*}*/
+/*.Holy-nav{*/
+    /*order: -1;*/
+/*}*/
+
+
+.box{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.item{
+    width: 180px;
+    height: 180px;
+    background: #c6c6c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
